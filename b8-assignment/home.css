@@ -1,0 +1,255 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+/* .mid-content{
+max-width: 1300px;
+margin: auto;
+margin-bottom: 100px;
+} */
+.banner{
+  background-color: #f2d3d3d6;
+
+}
+.header{
+  display: flex;
+  gap: 200px;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+}
+.banner-txt{
+  align-items: center;
+  width: 708px;
+  justify-content: center;
+}
+.banner-txt h2{
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.btn{
+  background-color: #E55473;
+  border: 0;
+  padding:20px 43px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.section-2{
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 30px;
+
+}
+.section-2 h3{
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+/* img section */
+.img-section{
+  width: 1440px;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
+.img-flex{
+  margin: 40px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  
+}
+.div1{
+  background-color: #ef9eaf;
+  padding:100px 75px 0 ;
+  border-radius: 50% 50% 0 0;
+}
+.div2{
+  background-color: #d5f2f4;
+  padding:100px 75px 0 ;
+  border-radius: 50% 50% 0 0;
+}
+.div3{
+  background-color: #E3EBDB;
+  padding:100px 75px 0 ;
+  border-radius: 50% 50% 0 0;
+}
+
+/* 3rd section */
+.step-3{
+  display: flex;
+  column-gap: 90px;
+  justify-content: space-between;
+  background-color: #ECECEC;
+  padding: 87px 127px;
+  text-align: center;
+}
+/* section-4 */
+.deal{
+  margin: 40px 0;
+  background-color: #f3dbe0;
+}
+.deal-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  margin:auto;
+}
+.deal-txt{
+  text-align: center;
+}
+.deal-txt h3{
+  font-size: 45px;
+}
+.deal-txt p{
+  font-size: 20px;
+  margin: 20px 0;
+}
+.deal-txt span{
+  color: #E55473;
+}
+.btn-sing{
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #E55473;
+}
+/* instagram */
+.instagram{
+  text-align: center;
+  margin: 20px 0;
+}
+.instagram h2{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+/* flower flex */
+.flower{
+  margin-bottom: 150px;
+}
+.flower-flex{
+  width: 1440px;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+/* form section */
+.form-section{
+  width: 1440px;
+  margin: auto;
+}
+/* .form-margin{
+  margin: 0 128px;
+} */
+.form{
+  text-align: center;
+  background-image: url('https://i.ibb.co/3kSG4ZP/Rectangle-9.png');
+  padding: 120px 200px;
+  background-repeat: no-repeat;
+}
+.form h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.form p{
+  font-size: 25px;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+.email{
+  padding: 22px 200px 22px 22px;
+  border: none;
+  border-radius: 5px;
+}
+.submit{
+  margin-left: 20px;
+  border: none;
+  background-color: #E55473;
+  color: #fff;
+  padding:15px 20px;
+  font-size:20px ;
+  border-radius: 10px;
+}
+/* new section */
+.map iframe{
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  border-radius: 8px;
+}
+.map-title{
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.map-title h2{
+  color: #424242;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 ;
+}
+.map-title p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #131313;
+}
+.new-section{
+  display: flex;
+  width: 50%;
+  gap: 50px;
+  align-items: center;
+}
+.form h3{
+  font-size: 45px;
+  font-weight: 700;
+}
+.form span{
+  color: #FF900E;
+}
+.form input{
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  border: 0;
+  border-radius: 10px;
+}
+.form textarea{
+  font-size: 22px;
+  padding:10px 15px ;
+  border: none;
+}
+.new-section{
+  width: 1440px;
+  margin: auto;
+}
+/* footer */
+.footer{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 150px;
+  padding: 142px ;
+}
+.footer h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.footer span{
+  color: #E55473;
+}
+.footer p{
+  margin-top: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gradient-to-r from-green-900">
+    <header class="text-center mt-8 ">
+        <h1 class="text-5xl text-white">Welcome to Your <span class="text-amber-600"> Bank Account</span></h1>
+        <h3 class="font-bold text-xl text-red-700">Your safety is our responsibility</h3>
+    </header>
+    <main>
+        <section>
+            <div class="grid sm:grid-cols-1 lg:grid-cols-3 gap-4 w-9/12 mx-auto mt-12 mb-8">
+                <div class="bg-orange-700 text-white py-12 px-6 text-center rounded-lg ">
+                    <h2 class="text-3xl">Deposit</h2>
+                    <h4 class="text-5xl">$ <span id="innerValue">00</span></h4>
+                </div>
+                <div class="bg-green-700 text-white py-12 px-6 text-center rounded-lg ">
+                    <h2 class="text-3xl">Deposit</h2>
+                    <h4 class="text-5xl">$ <span>00</span></h4>
+                </div>
+                <div class="bg-purple-700 text-white py-12 px-6 text-center rounded-lg ">
+                    <h2 class="text-3xl">Balance</h2>
+                    <h4 class="text-5xl">$ <span id="balance">12000</span></h4>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-6 w-9/12 mx-auto mt-12 ">
+                <div class="bg-rose-800 py-12 px-6 rounded-lg">
+                    <h3>Please Deposit Here</h3>
+                    <input id="input-value" class="block w-1/2 mt-2 mb-2 rounded-md" type="text" placeholder="$ Add money in your Account">
+                    <button id="deposit-btn" class="bg-indigo-800 text-white text-lg rounded-md hover:bg-amber-700 px-6 py-1">Deposit </button>
+                </div>
+                <div class="bg-amber-600 py-12 px-6 rounded-lg">
+                    <h3>Please Deposit Here</h3>
+                    <input class="block w-1/2 mt-2 mb-2 rounded-md" type="text" placeholder="$ Add money in your Account">
+                    <button class="bg-pink-700 text-white text-lg rounded-md hover:bg-indigo-700 px-6 py-1">Deposit </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/deposit.js"></script>
+</body>
+</html>

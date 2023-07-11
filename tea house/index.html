@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- font awesome kits -->
+    <script src="https://kit.fontawesome.com/a37f93cd11.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Open+Sans:wght@400;700&family=Poppins:wght@500&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <!-- tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                orange: '#D22C34',
+                primary: '#777777',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header>
+        <!-- banner section -->
+        <section class="w-5/6 gap-16 mx-auto row-cols-1 md:flex items-center justify-center">
+            <div>
+                <h1 class="font-bold text-7xl">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="text-lg text-gray-700 my-7">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-4 text-white rounded-xl">Explore More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                  </button>
+            </div>
+                <div class="relative">
+                    <img src="images/banner.png" alt="">
+                  <div class="flex items-center gap-4 bg-white shadow-lg absolute left-28 bottom-6 w-2/6 justify-center p-5 rounded-md">
+                    <p ><i class="fa-solid fa-star"></i></p>
+                  <div>
+                    <h1>5.00</h1>
+                    <p>Trust Pilot Ratings</p>
+                  </div>
+                  </div>
+                </div>
+        </section>
+    </header>
+    <main>
+      <section class="w-5/6 mx-auto m-20">
+        <div  class="w-1/2 text-center mx-auto">
+          <h1 class="text-5xl font-semibold m-3">Our Featured Products</h1>
+          <p class="text-xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div class="flex gap-8 mt-8 items-center justify-center">
+          <div class="bg-slate-50 text-center p-7 shadow-md">
+            <img class="mx-auto" src="images/tea-1.png" alt="">
+            <h2 class="text-2xl font-semibold m-2">Milk Tea</h2>
+            <p class="text-xl">Creamer could be replaced by fresh milk</p>
+          </div>
+          <div class="bg-slate-50 text-center p-7 shadow-md">
+            <img class="mx-auto" src="images/tea-2.png" alt="">
+            <h2 class="text-2xl font-semibold m-2">Milk Tea</h2>
+            <p class="text-xl">Creamer could be replaced by fresh milk</p>
+          </div>
+          <div class="bg-slate-50 text-center p-7 shadow-md">
+            <img class="mx-auto" src="images/tea-3.png" alt="">
+            <h2 class="text-2xl font-semibold m-2">Milk Tea</h2>
+            <p class="text-xl">Creamer could be replaced by fresh milk</p>
+          </div>
+          <div class="bg-slate-50 text-center p-7 shadow-md">
+            <img class="mx-auto" src="images/tea-4.png" alt="">
+            <h2 class="text-2xl font-semibold m-2">Milk Tea</h2>
+            <p class="text-xl">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </section>
+      <!-- comment section -->
+
+      <!-- clint section -->
+      <section class="w-5/6 mx-auto rounded-xl bg-gradient-to-r from-[#FF8938] to-[#FF0000]">
+        <div class="flex gap-32 p-28 items-center relative">
+          <div class="text-white w-3/4">
+            <h1>Meet Our Super Clients</h1>
+            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <button>Show All</button>
+          </div>
+          <div>
+            <div class="bg-white p-7 rounded-xl mb-16 ">
+              <img src="images/client.png" alt="">
+              <p> We are providing the best and suitable home insurance services for the people who are interested to treatment </p>
+              <h4>Omar Shakib</h4>
+              <p>Developer</p>
+            </div>
+            <div class="bg-white p-7 rounded-xl mb-3 absolute left-2/4 bottom-1/4 w-1/4">
+              <img src="images/client.png" alt="">
+              <p> We are providing the best and suitable home insurance services for the people who are interested to treatment </p>
+              <h4>Omar Shakib</h4>
+              <p>Developer</p>
+            </div>
+            <div class="bg-white p-7 rounded-xl mb-3 ">
+              <img src="images/client.png" alt="">
+              <p> We are providing the best and suitable home insurance services for the people who are interested to treatment </p>
+              <h4>Omar Shakib</h4>
+              <p>Developer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
